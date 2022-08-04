@@ -13,5 +13,5 @@ def overhead(forex):
         next(csvreader)
 
         for row in csvreader:rows.append(row)
-
-max=0
+        
+    max=0
