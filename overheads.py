@@ -24,3 +24,6 @@ def overhead(forex):
             Highest_overhead=[rows[i][0],round((max*forex,2))]
 
     return Highest_overhead
+
+with open("summary_report.txt","a") as a:
+     
