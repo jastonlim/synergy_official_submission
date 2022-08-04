@@ -15,3 +15,5 @@ def overhead(forex):
         for row in csvreader:rows.append(row)
         
     max=0
+
+    Highest_overhead = []
