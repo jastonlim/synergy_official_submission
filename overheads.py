@@ -17,3 +17,8 @@ def overhead(forex):
     max=0
 
     Highest_overhead = []
+
+    for i in range(len(rows)):
+        if max< float(rows[i][1]):
+            max = float(rows[i][1])
+            
