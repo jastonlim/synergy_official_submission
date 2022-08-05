@@ -22,3 +22,5 @@ forex = api_function()
 with open("summary_report.txt", "w") as a:
     a.write(f"[REAL TIME CURRENCY CONVERSION RATE] USD1 = SGD{forex}\n")
     #to append the Real time Currenecy to the csv file created in the other files 
+
+# test 2 
